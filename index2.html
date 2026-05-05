@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef2f3;
+            margin: 0;
+        }
+
+        .header {
+            background: #333;
+            color: white;
+            padding: 30px;
+        }
+
+        .header img {
+            width: 70px;
+            border-radius: 30%;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+           background: white;
+           margin: 30px auto;
+           padding: 25px;
+           border-radius: 10px;
+           width: 70%;
+           box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .skills span {
+           display: inline-block;
+           background: #333;
+           color: white;
+           padding: 8px 15px;
+           margin: 5px;
+           border-radius: 20px;
+           transition: 0.3s;
+        }
+
+        .skills span:hover {
+           background: #007BFF;
+        }
+
+        .projects {
+           display: flex;
+           gap: 20px;
+        }
+
+       .card {
+           background: #f9f9f9;
+           padding: 15px;
+           border-radius: 10px;
+           width: 200px;
+           transition: 0.3s;
+        }
+
+        .card:hover {
+           transform: scale(1.05);
+        }
+
+
+        h1, h2 {
+            margin: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 8px;
+        }
+
+        a {
+           color: white;
+           background: #333;
+           padding: 10px 15px;
+           border-radius: 5px;
+           transition: 0.3s;
+        }
+
+        a:hover {
+           background: #374151;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="mero.jpg" alt="Profile">
+        <h1>Sujal Mushyaju</h1>
+        <p>Beginner Developer</p>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am learning programming and building projects.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class = "skills">
+                 <span>Python</span>
+                 <span>HTML</span>
+                 <span>CSS</span>  
+      
+            
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+
+             <div class="projects">
+                 <div class="card">
+                     <h3>Notes App</h3>
+                     <p>A Python app to manage notes using files.</p>
+                 </div>
+
+                <div class="card">
+                    <h3>File Organizer</h3>
+                    <p>Automatically organizes files into folders.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <a href="https://github.com">My GitHub</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
